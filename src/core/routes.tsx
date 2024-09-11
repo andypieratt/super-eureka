@@ -1,10 +1,10 @@
-import { Box } from "@mui/material";
 import { RouteObject, useRoutes } from "react-router";
+import NavContainer from "./components/NavContainer";
 
 const routes: RouteObject[] = [
   {
     path: "/",
-    element: <Box />,
+    element: <NavContainer />,
     children: [],
   },
 ];
