@@ -1,4 +1,4 @@
-import LunchDiningIcon from "@mui/icons-material/LunchDining";
+import MenuIcon from "@mui/icons-material/Menu";
 import { Box, Drawer, IconButton, Typography } from "@mui/material";
 import { useState } from "react";
 import { useNavigate } from "react-router";
@@ -23,7 +23,7 @@ const NavMenu = () => {
   return (
     <Box>
       <IconButton onClick={handleClick}>
-        <LunchDiningIcon />
+        <MenuIcon />
       </IconButton>
 
       <Drawer
